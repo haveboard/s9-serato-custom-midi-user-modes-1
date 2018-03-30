@@ -1,4 +1,4 @@
-# S9 Serato Custom MIDI User Modes
+# Serato Custom MIDI User Modes for the Pioneer DJM-S9
 ## created by DJ haveboard [djhaveboard.com](http://djhaveboard.com/)
 
 4 separate User Modes for the Pioneer S9 to work with Serato DJ to provide additional functionality.
