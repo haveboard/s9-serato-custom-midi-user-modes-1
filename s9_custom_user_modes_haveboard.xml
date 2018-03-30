@@ -1,6 +1,6 @@
 <midi app=" 2.0.0.577">
 
-<!--END UM 1-->
+<!--User Mode 1-->
     <control channel="1" event_type="Note On" control="44">
         <userio event="click">
             <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
@@ -469,7 +469,7 @@
     </control><!--Right Deck Shift Delete Cue 4-->
     <!--END UM 1-->
     
-<!--UM 2-->
+<!--User Mode 2-->
     <control channel="1" event_type="Note On" control="45">
         <userio event="click">
             <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
@@ -898,7 +898,7 @@
         </userio>
     </control><!--Right Deck Auto Roll 1/8-->
 <!--END UM 2-->
-<!--UM 3-->
+<!--User Mode 3-->
     <control channel="1" event_type="Note On" control="46">
         <userio event="click">
             <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
@@ -1267,7 +1267,7 @@
         </userio>
     </control><!--Right Deck Sample 8-->
 <!--END UM 3-->
-<!--UM 4-->
+<!--User Mode 4-->
     <control channel="1" event_type="Note On" control="47">
         <userio event="click">
             <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
