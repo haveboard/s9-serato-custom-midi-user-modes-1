@@ -14,7 +14,7 @@ Cues stay lit (IT'S LIT, YO) whether there is a cue set for that pad or not. If 
    - Mac: ~/Users/\_YOUR_USER_NAME_/Music/_Serato_/MIDI/Xml
    - Windows: C:\Users\\\_YOUR_USER_NAME_\\Music\\\_Serato_\MIDI\Xml
 3. Go into Serato DJ Settings under the MIDI tab, select the `s9_custom_user_modes_by_haveboard` option from the MIDI PRESET list and then select "load" to load the custom MIDI XML file.
-4. Press Shift + one of the Pad mode buttons _twice_ to enter the respective User Mode
+4. To enable one of the custom User Modes, press `SHIFT` + one of the Pad mode buttons _twice_ to enter the respective User Mode
    - [User Mode 1](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-1---cues--samples) - Cues & Samples = SHIFT + HOT CUE x2
    - [User Mode 2](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-2---cues--rolls) - Cues & Rolls = SHIFT + ROLL x2
    - [User Mode 3](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-3-left-cues-left--right-pads-sample-deck) - Left Cues Left & Right Pads Sample Deck = press SHIFT + SLICER x2
@@ -29,7 +29,7 @@ Pads are describe starting top left, left to right
 | L05 | L06 | L07 | L08 | SLICER | SAMPLER | R05 | R06 | R07 | R08 |
 
 ## User Mode 1 - Cues & Samples 
-- press SHIFT + HOT CUE x2
+- press `SHIFT + HOT CUE x2`
 
 ### Left Pads
 1. **Cue 1** (Shift + Pad Deletes Cue)
@@ -62,7 +62,7 @@ Pads are describe starting top left, left to right
 For the rolls, I like the shorter rolls closer to the decks so the Rolls are mirrored from 1/8 on the outside to 1 on the inside for each deck
 
 ## User Mode 2 - Cues & Rolls
-- press SHIFT + ROLL x2
+- press `SHIFT + ROLL x2`
 
 ### Left Pads
 1. **Cue 1** (Red Shade - White Press)
@@ -93,7 +93,7 @@ For the rolls, I like the shorter rolls closer to the decks so the Rolls are mir
 8. **1/8 note Loop Roll** (Green Shades)
 
 ## User Mode 3 - Left Cues Left & Right Pads Sample Deck
-- press SHIFT + SLICER x2
+- press `SHIFT + SLICER x2`
 
 ### Left Pads
 1. **Cue 1** (Red Shade - White Press)
@@ -124,7 +124,7 @@ For the rolls, I like the shorter rolls closer to the decks so the Rolls are mir
 8. **Sample 8** (Blue Shades)
 
 ## User Mode 4 - Left Pads Sample Deck & Right Cues Right
-- press SHIFT + SAMPLER x2
+- press `SHIFT + SAMPLER x2`
 
 ### Left Pads
 1. **Sample 1** (Blue Shades)
