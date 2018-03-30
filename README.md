@@ -14,7 +14,7 @@ Cues stay lit (IT'S LIT, YO) whether there is a cue set for that pad or not. If 
    - Mac: ~/Users/\_YOUR_USER_NAME_/Music/_Serato_/MIDI/Xml
    - Windows: C:\Users\\\_YOUR_USER_NAME_\\Music\\\_Serato_\MIDI\Xml
 3. Go into Serato DJ Settings under the MIDI tab, select the `s9_custom_user_modes_by_haveboard` option from the MIDI PRESET list and then select "load" to load the custom MIDI XML file.
-4. To enable one of the custom User Modes, press `SHIFT` + one of the Pad mode buttons _twice_ to enter the respective User Mode
+4. To enable one of the custom User Modes, press `SHIFT` + one of the PAD MODE buttons _twice_ to enter the respective User Mode:
    - [User Mode 1](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-1---cues--samples) - Cues & Samples = SHIFT + HOT CUE x2
    - [User Mode 2](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-2---cues--rolls) - Cues & Rolls = SHIFT + ROLL x2
    - [User Mode 3](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-3-left-cues-left--right-pads-sample-deck) - Left Cues Left & Right Pads Sample Deck = press SHIFT + SLICER x2
