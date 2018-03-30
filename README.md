@@ -12,7 +12,7 @@ Cues stay lit whether there is a Cue set for that pad or not. If you know how to
 1. Clone or Download files to your computer from the Green button on the upper right side of this [GitHub Repo](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1).
 2. Place s9_custom_user_modes_by_haveboard.xml file into your Serato MIDI XML Directory
    - Mac: ~/Users/\_YOUR_USER_NAME_/Music/_Serato_/MIDI/Xml
-   - Windows: C:\Users\\\_YOUR_USER_NAME_\\\Music\\\_Serato_\MIDI\Xml
+   - Windows: C:\Users\\\_YOUR_USER_NAME_\\Music\\\_Serato_\MIDI\Xml
 3. Go into Serato DJ Settings under the MIDI tab, select the s9_custom_user_modes_by_haveboard and then select load to load the custom file.
 4. Press Shift + one of the Pad mode buttons twice to enter the respective User Mode
    - [User Mode 1](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-1---cues--samples) - Cues & Samples = SHIFT + HOT CUE x2
