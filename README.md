@@ -9,8 +9,8 @@ Cues stay lit (IT'S LIT, YO) whether there is a cue set for that pad or not. If 
 
 ## Installation
 
-1. Clone or Download files to your computer from the Green button on the upper right side of this [GitHub Repo](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1).
-2. Place s9_custom_user_modes_by_haveboard.xml file into your Serato MIDI XML Directory
+1. Clone or Download the files to your computer from the green button on the upper right side of [this GitHub Repo](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1).
+2. Place `s9_custom_user_modes_by_haveboard.xml` file into your Serato MIDI XML Directory
    - Mac: ~/Users/\_YOUR_USER_NAME_/Music/_Serato_/MIDI/Xml
    - Windows: C:\Users\\\_YOUR_USER_NAME_\\Music\\\_Serato_\MIDI\Xml
 3. Go into Serato DJ Settings under the MIDI tab, select the s9_custom_user_modes_by_haveboard option from the MIDI PRESET list and then select "load" to load the custom MIDI XML file.
