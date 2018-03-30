@@ -14,14 +14,14 @@ Cues stay lit (IT'S LIT, YO) whether there is a cue set for that pad or not. If 
    - Mac: `~/Users/\_YOUR_USER_NAME_/Music/_Serato_/MIDI/Xml`
    - Windows: `C:\Users\_YOUR_USER_NAME_\Music\_Serato_\MIDI\Xml`
 3. Go into Serato DJ Settings under the MIDI tab, select the `s9_custom_user_modes_by_haveboard` option from the MIDI PRESET list and then select "load" to load the custom MIDI XML file.
-4. To enable one of the custom User Modes, press `SHIFT` + one of the PAD MODE buttons _twice_ to enter the respective User Mode:
-   - [User Mode 1](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-1---cues--samples) - Cues & Samples = SHIFT + HOT CUE x2
-   - [User Mode 2](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-2---cues--rolls) - Cues & Rolls = SHIFT + ROLL x2
-   - [User Mode 3](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-3-left-cues-left--right-pads-sample-deck) - Left Cues Left & Right Pads Sample Deck = press SHIFT + SLICER x2
-   - [User Mode 4](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-4---left-pads-sample-deck--right-cues-right) - Left Pads Sample Deck & Right Cues Right = SHIFT + SAMPLER x2
+4. To enable one of the Custom User Modes, press `SHIFT` + one of the PAD MODE buttons _twice_ to enter the respective User Mode:
+   - [User Mode 1](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-1---cues--samples) - `SHIFT + HOT CUE x2` Cues & Samples
+   - [User Mode 2](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-2---cues--rolls) - `SHIFT + ROLL x2` Cues & Rolls
+   - [User Mode 3](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-3-left-cues-left--right-pads-sample-deck) - `SHIFT + SLICER x2` Left Cues Left & Right Pads Sample Deck
+   - [User Mode 4](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-4---left-pads-sample-deck--right-cues-right) - `SHIFT + SAMPLER x2` Left Pads Sample Deck & Right Cues Right
    
 ## User Modes Explained
-Pads are describe starting top left, left to right
+Pads are numbered starting top left, left to right, separated by left pads and right pads.
 
 | ___ | ___ | ___ | ___ | middle btns | middle btns | ___ | ___ | ___ | ___ |
 | --- | --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
@@ -153,3 +153,6 @@ For the rolls, I like the shorter rolls closer to the decks so the Rolls are mir
    - Shift + Pad Deletes Cue
 8. **Cue 8** (Light Purple Shade - White Press)
    - Shift + Pad Deletes Cue
+   
+Credits:
+@Themitchell for his `serato_dj_launchpad_midi_mapping.xml` [gist](https://gist.github.com/Themitchell/2fbeea02d3937cbb631a) which showed me `auto_loop_roll_specific_length`
