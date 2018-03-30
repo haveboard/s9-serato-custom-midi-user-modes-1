@@ -8,6 +8,7 @@ Cues stay lit whether there is a Cue set for that pad or not. If you know how to
 Pads are describe starting top left, left to right
 
 
+| L01 | L02 | L03 | L04 | HOT CUE | ROLL | R01 | R02 | R03 | R04 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L01 | L02 | L03 | L04 | HOT CUE | ROLL | R01 | R02 | R03 | R04 |
 | L05 | L06 | L07 | L08 | Slicer | Sampler | R05 | R06 | R07 | R08 |
