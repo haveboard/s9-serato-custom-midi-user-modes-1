@@ -467,7 +467,7 @@
             </cue_point_delete>
         </userio>
     </control><!--Right Deck Shift Delete Cue 4-->
-    <!--END UM 1-->
+<!--End User Mode  1-->
     
 <!--User Mode 2-->
     <control channel="1" event_type="Note On" control="45">
@@ -897,7 +897,7 @@
             </auto_loop_roll_specific_length>
         </userio>
     </control><!--Right Deck Auto Roll 1/8-->
-<!--END UM 2-->
+<!--End User Mode  2-->
 <!--User Mode 3-->
     <control channel="1" event_type="Note On" control="46">
         <userio event="click">
@@ -1266,7 +1266,7 @@
             </sample_player_slot_play>
         </userio>
     </control><!--Right Deck Sample 8-->
-<!--END UM 3-->
+<!--End User Mode  3-->
 <!--User Mode 4-->
     <control channel="1" event_type="Note On" control="47">
         <userio event="click">
@@ -1635,6 +1635,6 @@
             </cue_point_delete>
         </userio>
     </control><!--Right Deck Shift Delete Cue 8-->
-<!--END UM 4-->
+<!--End User Mode  4-->
     
 </midi>
