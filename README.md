@@ -9,7 +9,7 @@ Pads are describe starting top left, left to right
 
 
 | ___ | ___ | ___ | ___ | middle btns | middle btns | ___ | ___ | ___ | ___ |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
 | L01 | L02 | L03 | L04 | HOT CUE | ROLL | R01 | R02 | R03 | R04 |
 | L05 | L06 | L07 | L08 | SLICER | SAMPLER | R05 | R06 | R07 | R08 |
 
