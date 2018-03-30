@@ -1,4 +1,6 @@
 # S9 Serato Custom MIDI User Modes
+## created by DJ haveboard [djhaveboard.com](http://djhaveboard.com/)
+
 4 separate User Modes for the Pioneer S9 to work with Serato DJ to provide additional functionality.
 
 I still haven't figure out how to get the XML to inherit Serato color values for Cues so the Colors are set as is.
