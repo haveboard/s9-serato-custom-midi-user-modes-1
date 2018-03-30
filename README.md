@@ -7,8 +7,21 @@ I still haven't figure out how to get the XML to inherit Serato color values for
 
 Cues stay lit whether there is a Cue set for that pad or not. If you know how to only light up the pads when there is an active Cue please contact me and let me know or fork this and add it in.
 
-Pads are describe starting top left, left to right
+## Installation
 
+1. Clone or Download files to your computer from the Green button on the upper right side of the GitHub Repo.
+2. Place s9_custom_user_modes_by_haveboard.xml file into your Serato MIDI XML Directory
+   - Mac: ~/Users/_YOUR_USER_NAME_/Music/_Serato_/MIDI/Xml
+   - Windows: C:\Users\_YOUR_USER_NAME_\Music\_Serato_\MIDI\Xml
+3. Go into Serato DJ Settings under the MIDI tab, select the s9_custom_user_modes_by_haveboard and then select load to load the custom file.
+4. Press Shift + one of the Pad mode buttons twice to enter the respective User Mode
+   - [User Mode 1](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-1---cues--samples) - Cues & Samples = SHIFT + HOT CUE x2
+   - [User Mode 2](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-2---cues--rolls) - Cues & Rolls = SHIFT + ROLL x2
+   - [User Mode 3](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-3-left-cues-left--right-pads-sample-deck) - Left Cues Left & Right Pads Sample Deck = press SHIFT + SLICER x2
+   - [User Mode 4](https://github.com/haveboard/s9-serato-custom-midi-user-modes-1#user-mode-4---left-pads-sample-deck--right-cues-right) - Left Pads Sample Deck & Right Cues Right = SHIFT + SAMPLER x2
+   
+## User Modes Explained
+Pads are describe starting top left, left to right
 
 | ___ | ___ | ___ | ___ | middle btns | middle btns | ___ | ___ | ___ | ___ |
 | --- | --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
@@ -79,7 +92,7 @@ For the rolls, I like the shorter rolls closer to the decks so the Rolls are mir
 7. **1/4 note Loop Roll** (Green Shades)
 8. **1/8 note Loop Roll** (Green Shades)
 
-## User Mode 3 Left Cues Left & Right Pads Sample Deck
+## User Mode 3 - Left Cues Left & Right Pads Sample Deck
 - press SHIFT + SLICER x2
 
 ### Left Pads
