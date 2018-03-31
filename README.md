@@ -154,6 +154,10 @@ For the rolls, I like the shorter rolls closer to the decks so the Rolls are mir
    - Shift + Pad Deletes Cue
 8. **Cue 8** (Light Purple Shade - White Press)
    - Shift + Pad Deletes Cue
-   
+
+## Parameter Buttons
+
+The parameter buttons for all user modes select Sample Bank's A, B, C, and D, left to right respectively.
+
 Credits:
 @Themitchell for his `serato_dj_launchpad_midi_mapping.xml` [gist](https://gist.github.com/Themitchell/2fbeea02d3937cbb631a) which showed me `auto_loop_roll_specific_length`
