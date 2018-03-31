@@ -77,16 +77,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="42"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="42"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -98,16 +92,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="1">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="38"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="0" slot_id="1">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="38"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -119,16 +107,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="2">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="60"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="0" slot_id="2">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="60"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -140,16 +122,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="3">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="32"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="0" slot_id="3">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="32"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -276,16 +252,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="0">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="42"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="0">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="42"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -297,16 +267,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="1">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="38"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="1">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="38"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -318,16 +282,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="2">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="60"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="2">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="60"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -339,16 +297,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="3">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="32"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="3">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="32"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -546,16 +498,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="42"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="42"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -567,16 +513,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="1">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="38"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="0" slot_id="1">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="38"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -588,16 +528,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="2">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="60"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="0" slot_id="2">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="60"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -609,16 +543,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="3">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="32"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="0" slot_id="3">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="32"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -653,7 +581,6 @@
         </userio>
     </control><!--Left Deck Shift Delete Cue 4-->
 
-
     <control channel="13" event_type="Note On" control="16">
         <userio event="click">
             <cue_point deck_set="Default" deck_id="1" slot_id="0">
@@ -661,16 +588,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="0">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="42"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="0">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="42"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -684,14 +605,12 @@
         <userio event="output">
             <cue_point deck_set="Default" deck_id="1" slot_id="1">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="38"/>
                 </translation>
             </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="1">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="38"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -703,16 +622,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="2">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="60"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="2">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="60"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -724,16 +637,10 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="3">
-                <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="32"/>
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="3">
                 <translation action_on="any">
-                    <alias name="on" value="127"/>
-                    <alias name="off" value="0"/>
+                    <alias name="on" value="32"/>
+                    <alias name="off" value="63"/>
                 </translation>
             </cue_point_set>
         </userio>
@@ -975,12 +882,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="0">
+            <cue_point_set deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="42"/>
+                    <alias name="on" value="42"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Left Deck Cue 1-->
     <control channel="12" event_type="Note On" control="33">
@@ -990,12 +897,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="1">
+            <cue_point_set deck_set="Default" deck_id="0" slot_id="1">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="38"/>
+                    <alias name="on" value="38"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Left Deck Cue 2-->
     <control channel="12" event_type="Note On" control="34">
@@ -1005,12 +912,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="2">
+            <cue_point_set deck_set="Default" deck_id="0" slot_id="2">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="60"/>
+                    <alias name="on" value="60"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Left Deck Cue 3-->
     <control channel="12" event_type="Note On" control="35">
@@ -1020,12 +927,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="3">
+            <cue_point_set deck_set="Default" deck_id="0" slot_id="3">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="32"/>
+                    <alias name="on" value="32"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Left Deck Cue 4-->
     <control channel="12" event_type="Note On" control="36">
@@ -1035,12 +942,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="4">
+            <cue_point_set deck_set="Default" deck_id="0" slot_id="4">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="21"/>
+                    <alias name="on" value="21"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Left Deck Cue 5-->
     <control channel="12" event_type="Note On" control="37">
@@ -1050,12 +957,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="5">
+            <cue_point_set deck_set="Default" deck_id="0" slot_id="5">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="43"/>
+                    <alias name="on" value="43"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Left Deck Cue 6-->
     <control channel="12" event_type="Note On" control="38">
@@ -1065,12 +972,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="6">
+            <cue_point_set deck_set="Default" deck_id="0" slot_id="6">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="20"/>
+                    <alias name="on" value="20"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Left Deck Cue 7-->
     <control channel="12" event_type="Note On" control="39">
@@ -1080,12 +987,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="0" slot_id="7">
+            <cue_point_set deck_set="Default" deck_id="0" slot_id="7">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="53"/>
+                    <alias name="on" value="53"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Left Deck Cue 8-->
     
@@ -1465,12 +1372,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="0">
+            <cue_point_set deck_set="Default" deck_id="1" slot_id="0">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="42"/>
+                    <alias name="on" value="42"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Right Deck Cue 1-->
     <control channel="13" event_type="Note On" control="49">
@@ -1480,12 +1387,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="1">
+            <cue_point_set deck_set="Default" deck_id="1" slot_id="1">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="38"/>
+                    <alias name="on" value="38"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Right Deck Cue 2-->
     <control channel="13" event_type="Note On" control="50">
@@ -1495,12 +1402,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="2">
+            <cue_point_set deck_set="Default" deck_id="1" slot_id="2">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="60"/>
+                    <alias name="on" value="60"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Right Deck Cue 3-->
     <control channel="13" event_type="Note On" control="51">
@@ -1510,12 +1417,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="3">
+            <cue_point_set deck_set="Default" deck_id="1" slot_id="3">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="32"/>
+                    <alias name="on" value="32"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Right Deck Cue 4-->
     <control channel="13" event_type="Note On" control="52">
@@ -1525,12 +1432,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="4">
+            <cue_point_set deck_set="Default" deck_id="1" slot_id="4">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="21"/>
+                    <alias name="on" value="21"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Right Deck Cue 5-->
     <control channel="13" event_type="Note On" control="53">
@@ -1540,12 +1447,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="5">
+            <cue_point_set deck_set="Default" deck_id="1" slot_id="5">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="43"/>
+                    <alias name="on" value="43"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Right Deck Cue 6-->
     <control channel="13" event_type="Note On" control="54">
@@ -1555,12 +1462,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="6">
+            <cue_point_set deck_set="Default" deck_id="1" slot_id="6">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="20"/>
+                    <alias name="on" value="20"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Right Deck Cue 7-->
     <control channel="13" event_type="Note On" control="55">
@@ -1570,12 +1477,12 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="7">
+            <cue_point_set deck_set="Default" deck_id="1" slot_id="7">
                 <translation action_on="any">
-                    <alias name="on" value="64"/>
-                    <alias name="off" value="53"/>
+                    <alias name="on" value="53"/>
+                    <alias name="off" value="63"/>
                 </translation>
-            </cue_point>
+            </cue_point_set>
         </userio>
     </control><!--Right Deck Cue 8-->
     
