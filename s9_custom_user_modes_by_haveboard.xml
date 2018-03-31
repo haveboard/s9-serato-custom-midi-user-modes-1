@@ -603,10 +603,6 @@
             </cue_point>
         </userio>
         <userio event="output">
-            <cue_point deck_set="Default" deck_id="1" slot_id="1">
-                <translation action_on="any">
-                </translation>
-            </cue_point>
             <cue_point_set deck_set="Default" deck_id="1" slot_id="1">
                 <translation action_on="any">
                     <alias name="on" value="38"/>
