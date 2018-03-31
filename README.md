@@ -5,7 +5,8 @@
 
 I still haven't figure out how to get the XML to inherit Serato color values for cues so the colors are set as is. These can be changed with some basic XML editing.
 
-Cues stay lit (IT'S LIT, YO) whether there is a cue set for that pad or not. If you know how to light up the pads _only_ when there is an active cue please contact me and let me know.
+~~Cues stay lit (IT'S LIT, YO) whether there is a cue set for that pad or not. If you know how to light up the pads _only_ when there is an active cue please contact me and let me know.~~
+Output lighting for pressed cues removed in favor of active/inactive cue lighting. If there is no cue in a slot, the cue no longer lights up.
 
 ## Installation
 
