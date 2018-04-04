@@ -739,7 +739,7 @@ SOFTWARE.
                 <translation action_on="any">
                     <alias name="selected" value="0"/>
                     <alias name="on" value="64"/>
-                    <alias name="off" value="22"/>
+                    <alias name="off" value="21"/>
                 </translation>
             </auto_loop_roll_specific_length>
         </userio>
@@ -755,7 +755,7 @@ SOFTWARE.
                 <translation action_on="any">
                     <alias name="selected" value="0"/>
                     <alias name="on" value="64"/>
-                    <alias name="off" value="21"/>
+                    <alias name="off" value="22"/>
                 </translation>
             </auto_loop_roll_specific_length>
         </userio>
