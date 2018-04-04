@@ -1,7 +1,7 @@
 <midi app=" 2.0.0.577">
 <!--
 created by dj haveboard http://djhaveboard.com
-
+Version 1.0.1
 MIT License
 
 Copyright (c) 2018 Jonathan Finnegan
@@ -25,8 +25,80 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 -->
-<!--User Mode 1-->
-    <control channel="1" event_type="Note On" control="44">
+<!--Sampler-->
+<!--Sampler User Mode 1-->
+	<control channel="1" event_type="Note On" control="44">
+		<userio event="click">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any" behaviour="static" static_value="Bank A"/>
+			</sample_player_bank_select>
+		</userio>
+		<userio event="output">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any">
+					<alias name="Bank A" value="127"/>
+					<alias name="Bank B" value="0"/>
+					<alias name="Bank C" value="0"/>
+					<alias name="Bank D" value="0"/>
+				</translation>
+			</sample_player_bank_select>
+		</userio>
+	</control><!--Left Deck Param Left Bank A-->
+	<control channel="1" event_type="Note On" control="52">
+		<userio event="click">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any" behaviour="static" static_value="Bank B"/>
+			</sample_player_bank_select>
+		</userio>
+		<userio event="output">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any">
+					<alias name="Bank A" value="0"/>
+					<alias name="Bank B" value="127"/>
+					<alias name="Bank C" value="0"/>
+					<alias name="Bank D" value="0"/>
+				</translation>
+			</sample_player_bank_select>
+		</userio>
+	</control><!--Left Deck Param Right Bank B-->
+	<control channel="2" event_type="Note On" control="44">
+		<userio event="click">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any" behaviour="static" static_value="Bank C"/>
+			</sample_player_bank_select>
+		</userio>
+		<userio event="output">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any">
+					<alias name="Bank A" value="0"/>
+					<alias name="Bank B" value="0"/>
+					<alias name="Bank C" value="127"/>
+					<alias name="Bank D" value="0"/>
+				</translation>
+			</sample_player_bank_select>
+		</userio>
+	</control><!--Right Deck Param Left Bank C-->
+	<control channel="2" event_type="Note On" control="52">
+		<userio event="click">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any" behaviour="static" static_value="Bank D"/>
+			</sample_player_bank_select>
+		</userio>
+		<userio event="output">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any">
+					<alias name="Bank A" value="0"/>
+					<alias name="Bank B" value="0"/>
+					<alias name="Bank C" value="0"/>
+					<alias name="Bank D" value="127"/>
+				</translation>
+			</sample_player_bank_select>
+		</userio>
+	</control><!--Right Deck Param Right Bank D-->
+<!--End Sampler User Mode 1-->
+
+<!--Sampler User Mode 2-->
+    <control channel="1" event_type="Note On" control="45">
         <userio event="click">
             <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="any" behaviour="static" static_value="Bank A"/>
@@ -43,7 +115,7 @@ SOFTWARE.
             </sample_player_bank_select>
         </userio>
     </control><!--Left Deck Param Left Bank A-->
-    <control channel="1" event_type="Note On" control="52">
+    <control channel="1" event_type="Note On" control="53">
         <userio event="click">
             <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="any" behaviour="static" static_value="Bank B"/>
@@ -60,7 +132,7 @@ SOFTWARE.
             </sample_player_bank_select>
         </userio>
     </control><!--Left Deck Param Right Bank B-->
-    <control channel="2" event_type="Note On" control="44">
+    <control channel="2" event_type="Note On" control="45">
         <userio event="click">
             <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="any" behaviour="static" static_value="Bank C"/>
@@ -77,7 +149,7 @@ SOFTWARE.
             </sample_player_bank_select>
         </userio>
     </control><!--Right Deck Param Left Bank C-->
-    <control channel="2" event_type="Note On" control="52">
+    <control channel="2" event_type="Note On" control="53">
         <userio event="click">
             <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
                 <translation action_on="any" behaviour="static" static_value="Bank D"/>
@@ -94,7 +166,153 @@ SOFTWARE.
             </sample_player_bank_select>
         </userio>
     </control><!--Right Deck Param Right Bank D-->
-    
+<!--End Sampler User Mode 2-->
+
+<!--Sampler User Mode 3-->
+	<control channel="1" event_type="Note On" control="46">
+		<userio event="click">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any" behaviour="static" static_value="Bank A"/>
+			</sample_player_bank_select>
+		</userio>
+		<userio event="output">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any">
+					<alias name="Bank A" value="127"/>
+					<alias name="Bank B" value="0"/>
+					<alias name="Bank C" value="0"/>
+					<alias name="Bank D" value="0"/>
+				</translation>
+			</sample_player_bank_select>
+		</userio>
+	</control><!--Left Deck Param Left Bank A-->
+	<control channel="1" event_type="Note On" control="54">
+		<userio event="click">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any" behaviour="static" static_value="Bank B"/>
+			</sample_player_bank_select>
+		</userio>
+		<userio event="output">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any">
+					<alias name="Bank A" value="0"/>
+					<alias name="Bank B" value="127"/>
+					<alias name="Bank C" value="0"/>
+					<alias name="Bank D" value="0"/>
+				</translation>
+			</sample_player_bank_select>
+		</userio>
+	</control><!--Left Deck Param Right Bank B-->
+	<control channel="2" event_type="Note On" control="46">
+		<userio event="click">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any" behaviour="static" static_value="Bank C"/>
+			</sample_player_bank_select>
+		</userio>
+		<userio event="output">
+			<sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+				<translation action_on="any">
+					<alias name="Bank A" value="0"/>
+					<alias name="Bank B" value="0"/>
+					<alias name="Bank C" value="127"/>
+					<alias name="Bank D" value="0"/>
+				</translation>
+			</sample_player_bank_select>
+		</userio>
+	</control><!--Right Deck Param Left Bank C-->
+	<control channel="2" event_type="Note On" control="54">
+        <userio event="click">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="static" static_value="Bank D"/>
+            </sample_player_bank_select>
+        </userio>
+        <userio event="output">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="Bank A" value="0"/>
+                    <alias name="Bank B" value="0"/>
+                    <alias name="Bank C" value="0"/>
+                    <alias name="Bank D" value="127"/>
+                </translation>
+            </sample_player_bank_select>
+        </userio>
+    </control><!--Right Deck Param Right Bank D-->
+
+<!--End Sampler User Mode 3-->
+
+<!--Sampler User Mode 4-->
+    <control channel="1" event_type="Note On" control="47">
+        <userio event="click">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="static" static_value="Bank A"/>
+            </sample_player_bank_select>
+        </userio>
+        <userio event="output">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="Bank A" value="127"/>
+                    <alias name="Bank B" value="0"/>
+                    <alias name="Bank C" value="0"/>
+                    <alias name="Bank D" value="0"/>
+                </translation>
+            </sample_player_bank_select>
+        </userio>
+    </control><!--Left Deck Param Left Bank A-->
+    <control channel="1" event_type="Note On" control="55">
+        <userio event="click">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="static" static_value="Bank B"/>
+            </sample_player_bank_select>
+        </userio>
+        <userio event="output">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="Bank A" value="0"/>
+                    <alias name="Bank B" value="127"/>
+                    <alias name="Bank C" value="0"/>
+                    <alias name="Bank D" value="0"/>
+                </translation>
+            </sample_player_bank_select>
+        </userio>
+    </control><!--Left Deck Param Right Bank B-->
+    <control channel="2" event_type="Note On" control="47">
+        <userio event="click">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="static" static_value="Bank C"/>
+            </sample_player_bank_select>
+        </userio>
+        <userio event="output">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="Bank A" value="0"/>
+                    <alias name="Bank B" value="0"/>
+                    <alias name="Bank C" value="127"/>
+                    <alias name="Bank D" value="0"/>
+                </translation>
+            </sample_player_bank_select>
+        </userio>
+    </control><!--Right Deck Param Left Bank C-->
+    <control channel="2" event_type="Note On" control="55">
+        <userio event="click">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="static" static_value="Bank D"/>
+            </sample_player_bank_select>
+        </userio>
+        <userio event="output">
+            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="Bank A" value="0"/>
+                    <alias name="Bank B" value="0"/>
+                    <alias name="Bank C" value="0"/>
+                    <alias name="Bank D" value="127"/>
+                </translation>
+            </sample_player_bank_select>
+        </userio>
+    </control><!--Right Deck Param Right Bank D-->
+<!--End Sampler User Mode 4-->
+
+<!--PADS-->
+<!--User Mode 1-->
     <control channel="12" event_type="Note On" control="0">
         <userio event="click">
             <cue_point deck_set="Default" deck_id="0" slot_id="0">
@@ -447,74 +665,6 @@ SOFTWARE.
 <!--End User Mode  1-->
     
 <!--User Mode 2-->
-    <control channel="1" event_type="Note On" control="45">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank A"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="127"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Left Deck Param Left Bank A-->
-    <control channel="1" event_type="Note On" control="53">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank B"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="127"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Left Deck Param Right Bank B-->
-    <control channel="2" event_type="Note On" control="45">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank C"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="127"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Right Deck Param Left Bank C-->
-    <control channel="2" event_type="Note On" control="53">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank D"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="127"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Right Deck Param Right Bank D-->
     
     <control channel="12" event_type="Note On" control="16">
         <userio event="click">
@@ -827,74 +977,6 @@ SOFTWARE.
     </control><!--Right Deck Auto Roll 1/8-->
 <!--End User Mode  2-->
 <!--User Mode 3-->
-    <control channel="1" event_type="Note On" control="46">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank A"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="127"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Left Deck Param Left Bank A-->
-    <control channel="1" event_type="Note On" control="54">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank B"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="127"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Left Deck Param Right Bank B-->
-    <control channel="2" event_type="Note On" control="46">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank C"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="127"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Right Deck Param Left Bank C-->
-    <control channel="2" event_type="Note On" control="54">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank D"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="127"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Right Deck Param Right Bank D-->
     
     <control channel="12" event_type="Note On" control="32">
         <userio event="click">
@@ -1196,74 +1278,6 @@ SOFTWARE.
     </control><!--Right Deck Sample 8-->
 <!--End User Mode  3-->
 <!--User Mode 4-->
-    <control channel="1" event_type="Note On" control="47">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank A"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="127"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Left Deck Param Left Bank A-->
-    <control channel="1" event_type="Note On" control="55">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank B"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="127"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Left Deck Param Right Bank B-->
-    <control channel="2" event_type="Note On" control="47">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank C"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="127"/>
-                    <alias name="Bank D" value="0"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Right Deck Param Left Bank C-->
-    <control channel="2" event_type="Note On" control="55">
-        <userio event="click">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any" behaviour="static" static_value="Bank D"/>
-            </sample_player_bank_select>
-        </userio>
-        <userio event="output">
-            <sample_player_bank_select deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="any">
-                    <alias name="Bank A" value="0"/>
-                    <alias name="Bank B" value="0"/>
-                    <alias name="Bank C" value="0"/>
-                    <alias name="Bank D" value="127"/>
-                </translation>
-            </sample_player_bank_select>
-        </userio>
-    </control><!--Right Deck Param Right Bank D-->
     
     <control channel="12" event_type="Note On" control="48">
         <userio event="click">
