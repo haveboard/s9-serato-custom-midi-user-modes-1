@@ -1,6 +1,8 @@
 # Serato Custom MIDI User Modes for the Pioneer DJM-S9
 ### created by [DJ haveboard](http://djhaveboard.com/)
 
+updated April 10th, 2018 current version 1.0.1
+
 4 separate User Modes for the Pioneer S9 to work with Serato DJ to provide additional functionality.
 
 I still haven't figure out how to get the XML to inherit Serato color values for cues so the colors are set as is. These can be changed with some basic XML editing.
@@ -157,7 +159,8 @@ For the rolls, I like the shorter rolls closer to the decks so the Rolls are mir
 
 ## Parameter Buttons
 
-The parameter buttons for all user modes select Sample Bank's A, B, C, and D, left to right respectively.
+~~The parameter buttons for all user modes select Sample Bank's A, B, C, and D, left to right respectively.~~
+Parameter buttons for banks have been removed as it caused the parameters to not work properly for other modes. Hat tip to DJ Harley Beretta for making me aware.
 
 Credits:
 @Themitchell for his `serato_dj_launchpad_midi_mapping.xml` [gist](https://gist.github.com/Themitchell/2fbeea02d3937cbb631a) which showed me `auto_loop_roll_specific_length`
