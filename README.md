@@ -33,7 +33,7 @@ Pads are numbered starting top left, left to right, separated by left pads and r
 
 ## User Mode Shortcuts
 
-If you go into your 'DJM-S9 Settings Utility' under 'Preference' you can check 'PAD MODE options' so you can press the pad mode button 3 times instead of holding `SHIFT + PAD MODE BUTTON`.
+If you go into your 'DJM-S9 Settings Utility' under 'Preference' you can check 'PAD MODE options' so you can press the pad mode button 3 times instead of holding `SHIFT + PAD MODE BUTTON` to get into the user modes.
 
 ## User Mode 1 - Cues & Samples 
 - press `SHIFT + HOT CUE x2`
