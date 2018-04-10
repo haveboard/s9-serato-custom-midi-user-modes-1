@@ -31,6 +31,10 @@ Pads are numbered starting top left, left to right, separated by left pads and r
 | L01 | L02 | L03 | L04 | HOT CUE | ROLL | R01 | R02 | R03 | R04 |
 | L05 | L06 | L07 | L08 | SLICER | SAMPLER | R05 | R06 | R07 | R08 |
 
+## User Mode Shortcuts
+
+If you go into your 'DJM-S9 Settings Utility' under 'Preference' you can check 'PAD MODE options' so you can press the pad mode button 3 times instead of holding `SHIFT + PAD MODE BUTTON`.
+
 ## User Mode 1 - Cues & Samples 
 - press `SHIFT + HOT CUE x2`
 
